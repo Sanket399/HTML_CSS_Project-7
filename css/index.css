@@ -1,0 +1,211 @@
+body {
+    margin: 1em 2em;
+    font-family: Poppins, sans-serif;
+    font-size: 1.125rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Typography */
+
+h1 {
+    font-family: Fredoka One, sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin: 0;  
+}
+
+h4 {
+    margin: 0%;
+    font-size: .7em;
+}
+
+h5 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.text {
+    font-size: .8em;
+    font-weight: 200;
+}
+
+.discount-content > h1 {
+    font-size: 2.1em;
+    color: #fff;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: 5em;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 1em 2em;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.active-item {
+    font-weight: 700;
+    color: #FE5E35;
+    font-size: 1.2rem;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #FE5E35;
+}
+
+/* Layout */
+
+.intro-section {
+    display: flex
+}
+
+.left-section {
+    width: 60%;
+}
+
+.right-section {
+    width: 40%;
+}
+
+h1 {
+    margin-bottom: .5em; 
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    margin-bottom: .2em;
+}
+
+h5 {
+    margin-bottom: .8em;
+}
+
+
+/* Left section */
+.left-section>h3 {
+    display: flex;
+    margin-top: 2em;
+}
+
+h3>img {
+    padding-left: .3em;
+}
+
+.sub-headline {
+    display: flex;
+    margin-left: 3.6em;
+}
+
+h5>img {
+    padding-right: 1em;
+}
+
+.text {
+    margin-top: 2em;
+}
+
+.action-btn {
+    background: #FE5E35;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    margin-top: 1em;
+    margin-right: 1em;
+    font-size: 1.2rem;
+    padding: .4em .9em;
+    font-family: Poppins;
+}
+
+
+
+/* Right section */
+
+.headphone-div>img:last-child {
+    width: 90%;
+}
+
+.discount {
+    position: absolute;
+    top: 19em;
+    right: 23.4em;
+    width: 125px;
+}
+
+.discount-content {
+    position: absolute;
+    top: 20.5em;
+    right: 24.5em;
+}
+
+.dots {
+    display: flex;
+    margin-left: 6em;
+}
+
+.dot:hover {
+    opacity: 0.7;
+}
+
+
+.dot::after {
+    display: block;
+    content: "";
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1em;
+    background-color: pink;
+}
+
+.yellow-dot::after{
+    background-color: #FBD104;
+}
+
+.tomato-dot::after{
+    background-color: #FE5E35;
+}
+
+.black-dot::after {
+    background-color: #000000;
+}
+
+.right-section>button {
+    margin-left: 7em;
+}
+
+h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.headphone-div>img:last-child {
+    margin-top: 1em;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
